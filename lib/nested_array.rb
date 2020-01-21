@@ -16,8 +16,9 @@ CONVENTIONAL_PRODUCE = [
   "Eggplant"
 ]
 
-def assembled_matrix (CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE)
-#  produce_storage = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+
+def assembled_matrix (conventional, organic)
+  produce_storage = [conventional, organic]
 end
 
 def sorted_matrix
