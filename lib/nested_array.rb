@@ -16,6 +16,8 @@ CONVENTIONAL_PRODUCE = [
   "Eggplant"
 ]
 
+conventional = CONVENTIONAL_PRODUCE
+organic = ORGANIC_PRODUCE
 
 def assembled_matrix (conventional, organic)
   produce_storage = [conventional, organic]
